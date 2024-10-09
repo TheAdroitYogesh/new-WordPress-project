@@ -1,0 +1,41 @@
+/*
+Theme Name: Opticsfit
+Theme URI: https://opticsfit.com/
+Version: 1
+Description: Our Team, is compiled by professional, self-assertive individuals with combined experience of more than 15 years in the Health & Beauty Industry. We fully understand the needs of customers worldwide, as we have been providing partners and consumers in the global market, with products such as branded cosmetics, perfumes and various types of glasses, through several proprietary and third party online platforms.
+Author: Opticsfit
+Author URI: http://mysmilist.com/
+*/
+.close-popup {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: var(--bg);
+    border-radius: var(--radius-100);
+    border: none;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+
+.close-popup:before, .close-popup:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    border-radius: 20px;
+    top: 19px;
+    left: 11px;
+}
+
+
+.close-popup:before {
+    transform: rotate(45deg);
+}	
+
+.close-popup:after {
+    transform: rotate(-45deg);
+}
